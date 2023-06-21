@@ -5,5 +5,6 @@ public class mainClass {
         welcomeMessage.printMessage();
         Scanner sc = new Scanner(System.in);
         String action = sc.nextLine();
+        actionMethod.doAction(action);
     }
 }
